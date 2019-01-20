@@ -1,0 +1,102 @@
+.info_btn {
+  height: 26px;
+  line-height: 26px;
+  width: 70px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.user_info li {
+  float: left;
+  width: 360px;
+  line-height: 36px;
+}
+
+.user_info li:nth-of-type(even) {
+  width: 550px;
+}
+
+.user_info li span {
+  display: inline-block;
+  margin-right: 12px;
+  width: 60px;
+}
+
+.user_safe {
+  margin-bottom: 20px;
+}
+
+.user_safe p {
+  padding: 2px;
+  margin-left: 30px;
+  width: 180px;
+  border-radius: 8px;
+  border: 1px solid #39426B;
+  height: 12px;
+}
+
+.user_safe p span {
+  display: inline-block;
+  width: 96px;
+  height: 12px;
+  float: left;
+  background-color: #4786EF;
+  box-shadow: 0 0 4px 4px rgba(71, 134, 239, .4)
+}
+
+.user_safe p span:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.user_safe p span:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.user_safe .grade {
+  color: #4786EF;
+  margin-left: 25px;
+}
+
+.safe_info {
+  margin-top: 20px;
+  border-top: 1px solid #242C52;
+  position: absolute;
+  width: 100%;
+  margin-left: -50px;
+}
+
+.safe_list {
+  padding: 50px;
+}
+
+.safe_list li {
+  margin-top: 35px;
+}
+
+.safe_list li img {
+  margin-right: 24px;
+}
+
+.safe_list li .title {
+  padding-right: 20px;
+  border-right: 1px solid #D3D9E8;
+}
+
+.safe_list li .dec {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.safe_list li span.bbm_fr {
+  display: inline-block;
+  width: 72px;
+  text-align: center;
+}
+
+.user_info input {
+  border: none;
+  width: 350px;
+  background: none;
+}

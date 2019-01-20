@@ -1,0 +1,30 @@
+.my_select {
+  height: 37px;
+  line-height: 37px;
+  border: 1px solid #39426B;
+  background-color: #151932;
+  cursor: pointer;
+  z-index: 99;
+  position: relative;
+}
+
+.select_value {
+  display: inline-block;
+  width: 95%;
+  padding-left: 10px;
+}
+
+.my_select ul {
+  padding-left: 10px;
+  background-color: #151932;
+}
+
+.my_select li:hover {
+  color: #4786EF;
+}
+
+.my_select .select_icon {
+  right: 20px;
+  position: absolute;
+  top: 36%;
+}

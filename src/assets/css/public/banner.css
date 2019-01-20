@@ -1,0 +1,80 @@
+
+.banner {
+  width: 100%;
+  background: url("../../images/banner_bg.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+.banner_box {
+  position: absolute;
+  height: 520px;
+  background-size: cover;
+}
+
+.banner .banner_list {
+  position: relative;
+  z-index: 99;
+  height: 520px;
+}
+
+.banner .banner_item {
+  float: left;
+  width: 223px;
+  margin-top: 300px;
+  cursor: pointer;
+}
+
+.banner .banner_item + .banner_item {
+  margin-left: 20px;
+}
+
+.banner_item a {
+  display: block;
+  height: 212px;
+}
+
+
+.banner_rise {
+  animation: banner-in .5s linear forwards;
+}
+
+.banner_fall {
+  animation: banner-up .5s linear forwards;
+}
+
+.fade_in {
+  animation: fade-in .8s linear forwards;
+}
+
+@keyframes banner-in {
+  0% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes banner-up {
+  0% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(-0px);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+

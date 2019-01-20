@@ -1,0 +1,60 @@
+
+.list-enter-active {
+  animation: list-in .8s
+}
+
+.list-enter, .list-leave-to {
+  opacity: 0;
+}
+
+.currency-fade-enter-active {
+  animation: list-in 3s;
+}
+
+.currency-fade-leave-active {
+  animation: currency-out 3s;
+}
+
+.currency-fade-enter {
+  opacity: 0;
+}
+
+
+@keyframes list-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes currency-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes introduce {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes bg_animation {
+  from {
+    background: rgba(71, 134, 239, .1)
+  }
+  to {
+    background: rgba(71, 134, 239, .6);
+  }
+}

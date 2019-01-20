@@ -1,0 +1,139 @@
+.alert_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.alert_title {
+  height: 48px;
+  line-height: 48px;
+  background-color: #151932;
+  text-align: center;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.alert_content {
+  border: 1px solid #39426B;
+  width: 418px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -210px;
+  margin-top: -150px;
+  border-radius: 4px;
+}
+
+.alert_body {
+  background-color: #1A1A3C;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 24px;
+}
+
+.alert_body .item_title {
+  margin-right: 24px;
+  line-height: 37px;
+}
+
+.alert_body .input_item + .input_item {
+  margin-top: 12px;
+}
+
+.alert_body li input, .alert_body li select {
+  width: 258px;
+  height: 35px;
+  padding-left: 12px;
+}
+
+.alert_body .border0 {
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.alert_body .borderFocus0:focus {
+  border: none;
+}
+
+.alert_body li select {
+  cursor: pointer;
+  width: 272px;
+}
+
+.alert_btn_box {
+  margin-top: 24px;
+}
+
+.operate_btn {
+  width: 100%;
+  height: 34px;
+}
+
+.close_img {
+  position: absolute;
+  right: -9px;
+  top: -9px;
+  cursor: pointer;
+}
+
+.alert_body .my_select {
+  width: 270px;
+}
+
+.cnt_span {
+  position: absolute;
+  right: 40px;
+  color: #999999;
+  top: 130px;
+}
+
+/*message*/
+.confirm_alert_content {
+  width: 400px;
+  margin-left: -200px;
+  margin-top: -150px;
+}
+
+.confirm_alert_btn .btn {
+  width: 145px;
+  height: 36px;
+  line-height: 36px;
+  background: none;
+}
+
+.confirm_alert_btn {
+  margin: 20px auto 0;
+  width: 320px;
+}
+
+.confirm_alert_btn .ok_btn {
+  background-color: rgba(71, 134, 239, .1);
+}
+
+.confirm_alert_btn .btn:hover {
+  background-color: rgba(71, 134, 239, 1);
+}
+
+.confirm_alert_btn .confirm_btn{
+  width: 200px;
+  margin-left: 60px;
+}
+
+.confirm_text {
+  padding: 25px 0;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+
+
+
+
+

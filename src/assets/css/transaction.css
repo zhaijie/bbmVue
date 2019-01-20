@@ -1,0 +1,500 @@
+/*滑动条*/
+.count_rang {
+  -webkit-appearance: none;
+  width: 289px !important;
+  background: -webkit-linear-gradient(#4786EF, #4786EF) no-repeat, #39426B;
+  background-size: 0 100%;
+  height: 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/*拖动块的样式*/
+.count_rang::-webkit-slider-thumb {
+  -webkit-appearance: none; /*清除系统默认样式*/
+  height: 8px; /*拖动块高度*/
+  width: 24px; /*拖动块宽度*/
+  border-radius: 4px; /*外观设置为圆形*/
+  background-color: #4786EF;
+  box-shadow: 0 0 6px #4786EF;
+}
+
+/*顶部*/
+.transaction_top {
+  padding-top: 23px;
+}
+
+.transaction_top div.bbm_fl {
+  border: 1px solid #39426B;
+  border-radius: 4px;
+  height: 498px;
+  background-color: #1A1A3C;
+}
+
+.transaction_top .left, .transaction_bottom .left, .transaction_bottom .right {
+  width: 274px;
+  background-color: #1A1A3C;
+}
+
+.transaction_top .currency_tabs {
+  line-height: 36px;
+  width: 100%;
+  text-align: center;
+}
+
+.transaction_top .currency_tabs span, .transaction_top .currency_tabs a {
+  display: inline-block;
+  width: 88px;
+  float: left;
+  border-bottom: 1px solid #39426B;
+  cursor: pointer;
+  height: 36px;
+}
+
+.transaction_top .currency_tabs span + span {
+  border-left: 1px solid #39426B;
+  border-right: 1px solid #39426B;
+  width: 91px;
+}
+
+.transaction_top .currency_tabs span.active {
+  border-bottom: none;
+  border-top: 2px solid #4786EF;
+}
+
+.transaction_top .transaction_currency {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 448px;
+}
+
+.transaction_top .left table {
+  padding: 0 11px;
+  width: 278px;
+  font-size: 12px;
+}
+
+.transaction_top .left td {
+  height: 52px;
+  border-bottom: 1px solid #242C52;
+}
+
+.transaction_top .left td span {
+  padding-left: 15px;
+}
+
+.transaction_top .left tr:hover {
+  background-color: #151932;
+}
+
+.transaction_top .top_kLine {
+  width: 914px;
+  margin-left: 6px;
+}
+
+.transaction_top .kLine_title {
+  line-height: 48px;
+}
+
+.k-iframe {
+  border: none;
+}
+
+.kLine_title img.bbm_fl {
+  margin: 12px 6px 12px 11px;
+}
+
+.kLine_title img.bbm_fr {
+  width: 18px;
+  margin-top: 15px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.kLine_title span {
+  color: #9393b1;
+  font-size: 12px;
+}
+
+.kLine_title .currency_name {
+  font-weight: bold;
+}
+
+.kLine_title span.price {
+  cursor: pointer;
+}
+
+.kLine_title .currency_name, .kLine_title span span {
+  color: #D3D9E8;
+}
+
+.kLine_title > span + span {
+  margin-left: 17px;
+}
+
+.kLine_title span.red, .kLine_title span.greed {
+  font-size: 14px;
+  font-weight: bold;
+  color: #A33856;
+}
+
+.kLine_title span.greed {
+  color: #24A983;
+}
+
+.kLine_box {
+  padding: 0 12px 12px 12px;
+}
+
+/*底部*/
+.transaction_bottom {
+  margin-top: 6px;
+}
+
+.transaction_bottom > div {
+  border-radius: 4px;
+  border: 1px solid #39426B;
+}
+
+.transaction_bottom > div.bbm_fl + div.bbm_fl {
+  margin-left: 6px;
+}
+
+.transaction_bottom > div.bbm_fl {
+  height: 780px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.transaction_bottom .middle {
+  width: 634px;
+  border: none;
+}
+
+.record_title {
+  line-height: 48px;
+  background-color: #151932;
+  border-radius: 4px;
+}
+
+.record_title span {
+  display: inline-block;
+}
+
+.record_title span:first-child {
+  width: 71px;
+  margin-left: 13px;
+}
+
+.record_title span + span {
+  width: 77px;
+}
+
+.transaction_bottom .transaction_record table,
+.transaction_bottom .right table {
+  width: 278px;
+  padding: 0 13px;
+  font-size: 12px;
+}
+
+.transaction_bottom .transaction_record table tr,
+.transaction_bottom .right table tr {
+  line-height: 21px;
+  height: 21px;
+}
+
+.transaction_bottom .right .record_title span:first-child {
+  width: 56px;
+}
+
+.transaction_bottom .right .record_title span + span {
+  width: 92px;
+}
+
+.transaction_bottom .buy_title {
+  text-align: center;
+  line-height: 34px;
+  border-bottom: 1px solid #39426B;
+  border-top: 1px solid #39426B;
+  background: url("../../assets/images/buy_title.gif") no-repeat;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.transaction_bottom .buy_title span {
+  font-weight: bold;
+  width: auto !important;
+}
+
+.buy_sell_input {
+  border-radius: 4px;
+  background-color: #1A1A3C;
+  border: 1px solid #39426B;
+}
+
+.buy_sell_input div.bbm_fl {
+  width: 291px;
+  padding: 21px 12px;
+}
+
+.buy_sell_input div.bbm_fl:first-child {
+  border-right: 1px solid #39426B;
+  min-height: 380px;
+}
+
+.buy_sell_input .title {
+  color: #9393B1;
+}
+
+.buy_sell_input .title span {
+  color: #4786EF;
+  font-weight: bold;
+}
+
+.buy_sell_input .input_item {
+  margin-top: 23px;
+  position: relative;
+}
+
+.buy_sell_input .input_item p {
+  font-size: 12px;
+}
+
+.buy_sell_input .input_item div > input {
+  padding: 0 12px;
+  width: 266px;
+  line-height: 34px;
+  margin-top: 6px;
+}
+
+.input_item div.bold > input {
+  font-weight: bold;
+}
+
+.buy_sell_input .count_price {
+  margin-top: 23px;
+}
+
+.buy_sell_input .count_price span {
+  font-size: 12px;
+  color: #9393B1;
+}
+
+.buy_sell_input button {
+  display: inline-block;
+  width: 100%;
+  border-radius: 4px;
+  line-height: 34px;
+  height: 34px;
+  margin-top: 22px;
+  transition: background-color 1s;
+}
+
+.buy_sell_input .buy_btn {
+  border: 1px solid #A33856;
+  color: #A33856;
+  background-color: rgba(163, 56, 86, .1);
+}
+
+.buy_sell_input .sell_btn {
+  border: 1px solid #24A983;
+  color: #24A983;
+  background-color: rgba(36, 169, 131, .1);
+}
+
+.buy_sell_input .result_btn {
+  background-color: #4786EF;
+  border: 1px solid #4786EF;
+  color: #D3D9E8;
+  transition: all 1s;
+}
+
+.buy_sell_input .not_password {
+  font-size: 12px;
+  color: #9393B1;
+  margin-top: 25px;
+}
+
+.assets_tabs {
+  margin-top: 6px;
+  background-color: #1A1A3C;
+  border: 1px solid #39426B;
+  border-radius: 4px;
+}
+
+.assets_tabs .bottom-tabs {
+  line-height: 35px;
+}
+
+.assets_tabs .bottom-tabs .tabs-button {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  border-bottom: 1px solid #39426B;
+  float: left;
+  height: 35px;
+  color: #9393B1;
+}
+
+.assets_tabs .bottom-tabs .tabs-button + .tabs-button {
+  border-left: 1px solid #39426B;
+}
+
+.assets_tabs .bottom-tabs a.active {
+  border-top: 2px solid #4786EF;
+  border-bottom: none;
+  color: #4786EF;
+}
+
+.more_detail {
+  padding-right: 11px;
+  color: #9393B1;
+}
+
+.bottom-tabs span {
+  display: inline-block;
+  float: left;
+  width: 268px;
+  height: 35px;
+  border-bottom: 1px solid #39426B;
+  border-left: 1px solid #39426B;
+}
+
+/*切换内容*/
+.bottom-tabs-content {
+  background-color: #1A1A3C;
+  height: 266px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 6px 11px;
+  border-radius: 4px;
+}
+
+.bottom-tabs-box {
+  padding: 10px 0 20px;
+}
+
+.bottom-tabs-content td {
+  color: #9393B1;
+  font-size: 12px;
+}
+
+/*交易说明*/
+.transaction_about {
+  background-color: #1A1A3C;
+  margin-top: 6px;
+  border-radius: 4px;
+  padding: 24px 0 17px 23px;
+  border: 1px solid #39426B;
+}
+
+.about_list {
+  overflow-y: auto;
+  height: 159px;
+  width: 1171px;
+}
+
+.transaction_about .item_title {
+  color: #4786EF;
+}
+
+.transaction_about .item_content {
+  color: #9393B1;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/*右下角未登录*/
+.bottom-tabs-content .not-login {
+  text-align: center;
+  margin-top: 10%;
+  color: #93929c;
+}
+
+.bottom-tabs-content .not-login p {
+  margin-top: 20px;
+}
+
+.bottom-tabs-content .not-login a {
+  color: #4786EF;
+  margin: 0 5px;
+}
+
+.assets_content .title p.bbm_fl {
+  color: #9393B1;
+  float: left;
+}
+
+.assets_content .title .bbm_fl span {
+  font-weight: bold;
+  color: #4786EF;
+}
+
+.assets_table {
+  text-align: left;
+}
+
+.assets_table th {
+  font-weight: normal;
+}
+
+.assets_table tr {
+  line-height: 36px;
+}
+
+.assets_table tr p {
+  line-height: 20px;
+}
+
+.assets_table tr img {
+  margin-right: 5px;
+}
+
+/*我的委托tab*/
+.content1-title {
+  height: 40px;
+  line-height: 40px;
+  color: #93929c;
+}
+
+.content1-title > .active {
+  background-color: #4786EF;
+}
+
+.content1-title span {
+  padding: 3px 9px;
+  cursor: pointer;
+  color: #D3D9E8;
+  border-radius: 4px;
+  border: 1px solid #4786EF;
+  background-color: rgba(71, 134, 239, .1);
+  font-size: 12px;
+}
+
+.content1-title span + span {
+  margin-right: 4px;
+}
+
+.content1-title span + span:hover {
+  background-color: #4786EF;
+}
+
+.content1-title .title {
+  font-size: 14px;
+  margin-right: 15px;
+  color: #9393B1;
+  border: none;
+  background-color: inherit;
+}
+
+.entrust_state_text {
+  float: left;
+  margin-right: 5px;
+  color: #fff;
+  display: block;
+  border-radius: 50%;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 10px;
+}

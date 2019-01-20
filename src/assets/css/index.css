@@ -1,0 +1,215 @@
+.index_box {
+  margin-top: -60px;
+}
+
+/*公告*/
+.notice {
+  background-color: #151932;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 520px;
+}
+
+.notice .title {
+  color: #4786EF;
+  margin-right: 10px;
+}
+
+.notice .time {
+  margin-right: 15px;
+}
+
+.notice .notice_more {
+  margin-left: 15px;
+  font-size: 10px;
+}
+
+/*币列表*/
+
+.currency_list {
+  background-color: #242C52;
+}
+
+.currency_transaction {
+  /*width: 250px;*/
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  top: 1px;
+}
+
+.currency_transaction button {
+  display: inline-block;
+  width: 105px;
+  line-height: 36px;
+  height: 36px;
+  border: 1px solid #39426B;
+  float: left;
+  color: #9393B1;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.currency_transaction button + button {
+  border-left: none;
+}
+
+.currency_transaction button.active {
+  background-color: #151932;
+}
+
+.currency_table, .information {
+  margin-top: 60px;
+}
+
+.currency_table table {
+  text-align: left;
+  width: 1200px;
+  font-size: 12px;
+  border-top: 1px solid #39426B;
+}
+
+.currency_table tr td:first-child {
+  padding-left: 40px;
+}
+
+.currency_table table thead {
+  background-color: #151932;
+}
+
+.currency_table .currency_name {
+  line-height: 36px;
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+.currency_table img {
+  width: 30px;
+  float: left;
+  margin-top: 3px;
+}
+
+.currency_table thead tr {
+  height: 49px;
+}
+
+.currency_table tbody tr {
+  background-color: #1A1A3C;
+  height: 60px;
+}
+
+.currency_table tbody tr a {
+  color: #4786EF;
+}
+
+.currency_table tbody tr td {
+  border-top: 6px solid #242C52;
+}
+
+/*版本介绍*/
+.introduce {
+  height: 240px;
+  margin-top: 60px;
+  background-color: #1A1A3C;
+}
+
+.introduce_item {
+  cursor: pointer;
+  float: left;
+  width: 33.3%;
+  margin-top: 61px;
+}
+
+.introduce_item span {
+  color: #4786EF;
+  font-size: 20px;
+}
+
+.introduce_item .first_p {
+  margin-top: 24px;
+}
+
+.introduce_item div.bbm_fl {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+/*资讯*/
+.information_item {
+  float: left;
+  width: 282px;
+  border: 1px solid rgba(71, 134, 239, .3);
+  border-radius: 4px;
+  background: rgba(71, 134, 239, .1);
+  box-shadow: 0 0 12px #151932;
+}
+
+.information_item:hover {
+  animation: myfirst .5s ease-in-out 0s 1 alternate forwards;
+}
+
+.information_item img {
+  margin-bottom: 5px;
+}
+
+.information_item p {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  padding: 0 13px;
+  overflow: hidden;
+}
+
+.information_item p span {
+  font-size: 12px;
+  color: #9393B1;
+}
+
+.information_item p:last-child {
+  margin: 20px 0 10px;
+}
+
+.information_item + .information_item {
+  margin-left: 21px;
+}
+
+.information_more {
+  width: 128px;
+  margin: 35px auto;
+  border: 1px solid #D3D9E8;
+  line-height: 34px;
+  text-align: center;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.information_item.active span {
+  color: #fff;
+}
+
+.information_item a:hover {
+  background-color: #4786EF;
+  color: #fff;
+}
+
+.information_more:hover {
+  background-color: rgba(71, 134, 239, .6);
+  border: 1px solid rgba(71, 134, 239, 1);
+}
+
+/*动画*/
+.introduce_item:hover {
+  animation: introduce 1s linear infinite forwards;
+}
+
+.information_item:hover {
+  animation: bg_animation .5s ease-in-out 0s 1 alternate forwards;
+}
+
+
+
+

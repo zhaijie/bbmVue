@@ -1,0 +1,95 @@
+header {
+  height: 60px;
+  background: rgba(26, 26, 60, 0.4);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  display: block;
+  min-width: 1200px;
+}
+
+header .loge_img {
+  margin-top: 12px;
+}
+
+.nav {
+  width: 520px;
+  margin-left: 400px;
+}
+
+.nav li {
+  float: left;
+  cursor: pointer;
+  line-height: 60px;
+}
+
+.nav li:hover, .nav li.active {
+  color: #4786EF;
+}
+
+.nav li a {
+  display: inline-block;
+  width: 100%;
+  line-height: 60px;
+}
+
+.nav li + li {
+  margin-left: 34px;
+}
+
+.user_header a {
+  display: inline-block;
+  line-height: 24px;
+  width: 64px;
+  margin-top: 18px;
+}
+
+.user_header .register {
+  background-color: rgba(71, 134, 239, .1);
+  border: 1px solid #4786EF;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.user_header .register:hover {
+  color: #D3D9E8;
+  background-color: rgba(71, 134, 239, 1);
+}
+
+.user_menu {
+  line-height: 60px;
+  cursor: pointer;
+  position: relative;
+}
+
+.user_menu:hover ul {
+  display: block;
+}
+
+.user_menu img {
+  margin-right: 5px;
+}
+
+.user_menu ul {
+  display: none;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  line-height: 36px;
+  border: 1px solid rgba(71, 134, 239, .3);
+  background-color: rgba(71, 134, 239, .1);
+}
+
+.user_menu ul li:hover {
+  background-color: rgba(71, 134, 239, .6);
+}
+
+.user_menu ul a:hover {
+  color: #D3D9E8;
+}
+
+.user_menu ul a {
+  margin-top: 0;
+}

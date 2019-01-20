@@ -1,0 +1,93 @@
+.footer {
+  width: 100%;
+  min-width: 1200px;
+  background: #21243b;
+  padding-top: 40px;
+  clear: both;
+}
+
+.footer .list {
+  float: left;
+  width: 127px;
+}
+
+.footer .problem_list{
+  width: 60px;
+}
+
+.footer .list label, .contact_us_text0 {
+  display: block;
+  color: #fff;
+  text-align: left;
+  line-height: 32px;
+  height: 32px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.footer .list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer .list li {
+  display: block;
+  height: 25px;
+  line-height: 25px;
+  list-style: none;
+  text-align: left;
+}
+
+.footerlink .contact_us_text0 {
+  text-align: right;
+}
+
+.footer .list li a, .contact_us_text2, .footerlink li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 25px;
+  color: #93929c;
+  font-size: 12px;
+}
+
+.footer .list li a:hover, .footerlink li a:hover {
+  color: #4786EF;
+}
+
+.contact_us {
+  font-size: 12px;
+  float: left;
+  width: auto;
+  padding-right: 20px;
+}
+
+.contact_us_icon {
+  margin-top: 6px;
+}
+
+.contact_us_icon img {
+  width: 24px;
+  margin-right: 20px;
+}
+
+.footerlink {
+  float: right;
+}
+
+.footerlink ul {
+  float: right;
+  width: 120px;
+  text-align: right;
+}
+
+.copyright {
+  height: 44px;
+  text-align: center;
+  border-top: 1px solid #181a29;
+  color: #93929c;
+  font-size: 12px;
+  line-height: 20px;
+  padding-top: 4px;
+  margin-top: 40px;
+}

@@ -1,0 +1,265 @@
+.bbm_fl {
+  float: left;
+}
+
+.bbm_fr {
+  float: right;
+}
+
+.padding0 {
+  padding: 0 !important;
+}
+
+.paddingLeft20 {
+  padding-left: 20px !important;
+}
+
+.margin_top25 {
+  margin-top: 25px;
+}
+
+.margin_b15 {
+  margin-bottom: 15px;
+}
+
+.margin_top48 {
+  margin-top: 48px;
+}
+
+.remind {
+  color: #4786EF;
+}
+
+.color9393B1 {
+  color: #9393B1;
+}
+
+/*清除浮动*/
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+/*兼容ie6,ie7*/
+.clearfix {
+  zoom: 1;
+  clear: both;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a, button, tr {
+  cursor: pointer;
+}
+
+button {
+  color: #D3D9E8;
+}
+
+a {
+  text-decoration: none;
+  color: #D3D9E8;
+}
+
+a:hover {
+  color: #4786EF;
+}
+
+input:-moz-placeholder {
+  color: #9393B1;
+}
+
+input::-webkit-input-placeholder {
+  color: #9393B1;
+}
+
+input::-moz-placeholder {
+  color: #9393B1;
+}
+
+input:-ms-input-placeholder {
+  color: #9393B1;
+}
+
+input, select {
+  color: #D3D9E8;
+  font-size: 14px;
+  background-color: #151932;
+  border: 1px solid #39426B;
+  border-radius: 2px;
+}
+
+input:focus {
+  border: 1px solid #4786EF;
+}
+
+input[type=range] {
+  border: none;
+}
+
+input[type=range]:focus {
+  border: none;
+}
+
+.btn {
+  display: inline-block;
+  background: rgba(71, 134, 239, .1);
+  border: 1px solid #4786EF;
+  border-radius: 4px;
+  height: 44px;
+  color: #D3D9E8;
+  font-size: 14px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #4786EF;
+}
+
+.rise {
+  color: #A33856;
+}
+
+.fall {
+  color: #24A983;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 2px; /*滚动条宽度*/
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+.scrollbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+  border-radius: 1px; /*滚动条的背景区域的圆角*/
+  background-color: #0D0E1E; /*滚动条的背景颜色*/
+}
+
+/*定义滑块 内阴影+圆角*/
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 1px; /*滚动条的圆角*/
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #4786EF; /*滚动条的背景颜色*/
+}
+
+.scrollbar {
+  scrollbar-face-color: #4786EF; /* 滚动条颜色*/
+  scrollbar-shadow-color: #4786EF; /* 滚动条边框颜色*/
+  scrollbar-arrow-color: #0D0E1E; /* 箭头颜色*/
+  scrollbar-track-color: #0D0E1E; /* 滚动条的背景颜色*/
+}
+
+/*顶部背景*/
+.trans_img {
+  width: 100%;
+  height: 100px;
+  background: url("../../images/trans_footer.png") no-repeat;
+  background-position: center;
+}
+
+.trans_img img {
+  height: 100px;
+}
+
+table tbody tr {
+  cursor: pointer;
+}
+
+table tbody tr:hover {
+  background-color: #151932 !important;
+}
+
+/*个人中心，帮助中心*/
+.common_container {
+  margin-top: 50px;
+}
+
+.common_content {
+  width: 1010px;
+  height: 100%;
+  min-height: 718px;
+  /*position: relative;*/
+  background: #1A1A3C;
+  float: right;
+  border-radius: 4px;
+  border: 1px solid #39426B;
+}
+
+.common_title {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: 48px;
+  line-height: 48px;
+  padding-left: 20px;
+  background: #151932;
+}
+
+.common_title a, .common_title span {
+  display: inline-block;
+  margin: 0 5px;
+  line-height: 36px;
+}
+
+.common_title a:first-of-type {
+  margin: 0 5px 0 0;
+}
+
+.user_details {
+  padding: 40px 50px;
+}
+
+.color4786EF {
+  color: #4786EF;
+}
+
+.colorD3D9E8 {
+  color: #D3D9E8;
+}
+
+.check_tip {
+  display: inline-block;
+  position: absolute;
+  background-color: #F90;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 5px 15px;
+  box-shadow: 1px 1px 2px #F90;
+  -o-box-shadow: 1px 1px 2px #F90;
+  -moz-box-shadow: 1px 1px 2px #F90;
+  -webkit-border-shadow: 1px 1px 2px #F90;
+  z-index: 99;
+  top: 53px;
+}
+
+.check_tip:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 6px solid;
+  border-bottom-color: #F90;
+  color: transparent;
+  top: -12px;
+  left: 10px;
+}
+
+
+
+
+
